@@ -1,0 +1,266 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/png" href="/1205904.png" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script src="https://kit.fontawesome.com/6ef0c40944.js" crossorigin="anonymous"></script>
+  <title>Portfolio</title>
+  <script type="module" crossorigin src="/assets/index-BTNGgNia.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/index-DmruF1bx.css">
+</head>
+
+<body class="bg-zinc-200">
+  <header id="header" class="sticky top-0 z-50 bg-zinc-200 text-zinc-700">
+    <nav class="wrapper flex justify-between">
+      <a href="/" class="sm:mr-auto">
+        <h1 aria-label="Home" class="text-3xl"><i class="fa-solid fa-briefcase"></i></h1>
+      </a>
+      <div id="menu" class="menu-sm-close sm:menu-lg font-semibold text-lg">
+        <button aria-label="close navigation" id="close"
+          class="block sm:hidden absolute top-4 right-6 text-3xl hover:text-purple-500">
+          <i class="fa-solid fa-circle-xmark"></i>
+        </button>
+        <a class="hover:text-purple-500" href="#about">About</a>
+        <a class="hover:text-purple-500" href="#skills">Skills</a>
+        <a class="hover:text-purple-500" href="#projects">Projects</a>
+        <a class="hover:text-purple-500" href="#contact">Contact</a>
+      </div>
+      <button id="burger" class="text-3xl sm:hidden">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+    </nav>
+  </header>
+  <main>
+
+    <section class="relative">
+      <img class="w-full h-full absolute -z-10 object-cover" src="assets/waves.svg" alt="">
+      <div class="wrapper flex flex-wrap gap-x-20 gap-y-12 justify-center items-center my-8 py-12">
+        <img src="assets/me.jpg" alt="My photo" class="w-80 rounded-full border-4 border-white">
+        <article class="w-fit">
+          <p class="text-white text-4xl font-bold mb-6">Hi, I'm Giorgi</p>
+          <p class="text-white text-6xl font-bold mb-6">Full-Stack Web <br /> Developer</p>
+          <a href="#"
+            class="bg-white text-xl text-purple-800 font-bold border-4 border-transparent rounded-full py-2 px-8 block mt-8 w-fit hover:bg-purple-800 hover:border-white hover:text-white transition-all duration-300">Download
+            CV</a>
+        </article>
+      </div>
+    </section>
+
+    <section id="about" class="my-10 wrapper-sm">
+      <h2
+        class="w-fit mx-auto text-center text-3xl text-zinc-800 font-semibold after:block after:h-1 after:w-full after:bg-zinc-800 after:rounded-full after:mt-2">
+        About Me
+      </h2>
+      <article>
+        <p class="text-lg mt-12">
+          My name is Giorgi Ananiashvili, born in 2001 and currently residing in Tbilisi, Georgia. I am a self-taught
+          web developer with nearly a year of dedicated study in this field. Throughout my journey, I have diligently
+          acquired pertinent skills, undertaken various projects, and remain committed to continuous improvement in my
+          craft.
+        </p>
+      </article>
+    </section>
+
+    <section id="skills" class="wrapper mb-12">
+      <h2
+        class="w-fit mx-auto text-center text-3xl text-zinc-800 font-semibold after:block after:h-1 after:w-full after:bg-zinc-800 after:rounded-full after:mt-2 mb-12">
+        Skill Set
+      </h2>
+      <ul class="flex gap-6 justify-between items-baseline flex-wrap">
+        <li title="React">
+          <img class="w-20 rounded-md" src="assets/react.webp" alt="React">
+          <p class="text-center font-semibold mt-2">React</p>
+        </li>
+        <li>
+          <img class="w-20 rounded-md" src="assets/redux.webp" alt="Redux" title="Redux">
+          <p class="text-center font-semibold mt-2">Redux</p>
+        </li>
+        <li>
+          <img class="w-20 rounded-md" src="assets/typescript.png" alt="TypeScript" title="TypeScript">
+          <p class="text-center font-semibold mt-2">TypeScript</p>
+        </li>
+        <li>
+          <img class="w-20 rounded-md mx-auto" src="assets/tailwind.svg" alt="TailwindCSS" title="TailwindCSS">
+          <p class="text-center font-semibold mt-2">Tailwind CSS</p>
+        </li>
+        <li>
+          <img class="w-20 rounded-md" src="assets/node.png" alt="NodeJS" title="NodeJS">
+          <p class="text-center font-semibold mt-2">NodeJS</p>
+        </li>
+        <li>
+          <img class="w-20 rounded-md" src="assets/express.png" alt="ExpressJS" title="ExpressJS">
+          <p class="text-center font-semibold mt-2">Express</p>
+        </li>
+        <li>
+          <img class="w-20 rounded-md" src="assets/mongo.png" alt="MongoDB" title="MongoDB">
+          <p class="text-center font-semibold mt-2">MongoDB</p>
+        </li>
+        <li>
+          <img class="w-20 rounded-md" src="assets/python.webp" alt="Python" title="Python">
+          <p class="text-center font-semibold mt-2">Python</p>
+        </li>
+    </section>
+
+    <section id="projects" class="relative">
+      <img src="assets/blobs.svg" alt="" class="w-full h-full object-cover absolute -z-10">
+      <div class="wrapper-sm">
+        <h2
+          class="w-fit mx-auto text-center text-3xl text-white font-semibold after:block after:h-1 after:w-full after:bg-white after:rounded-full after:mt-2 mb-12 mt-6">
+          Personal Projects
+        </h2>
+
+        <p class="text-sm font-semibold p-4 rounded-xl border-2 border-red-600 text-red-600 bg-red-100 mb-12">
+          <span class="font-bold text-lg">Note:</span>
+          applications showcased on this portfolio are hosted on Render using their free service tier. As a result, if
+          these applications are inactive for a period of time, they may temporarily shut down until they are accessed
+          again. This means that there might be a delay in loading the applications upon initial visit. Thank you for
+          your understanding.
+        </p>
+
+        <div class="grid gap-10 grid-cols-flex-sm xs:grid-cols-flex place-items-center mb-8">
+          <div class="cursor-pointer rounded-md overflow-clip relative w-fit shadow-lg shadow-black/30 group">
+            <img class="w-80 group-hover:opacity-50" src="assets/swift.JPG" alt="SwiftTweet">
+            <article
+              class="bg-black/70 text-white absolute inset-0 flex flex-col justify-end p-4 opacity-0 group-hover:opacity-100 transition-all text-center">
+
+              <div class="relative top-10 group-hover:top-0 transition-all duration-300">
+
+                <h3 class="text-2xl">SwiftTweet</h3>
+                <p>Real-time chat application</p>
+
+                <div class="mt-6 bg-white/70 p-2 rounded-md text-black">
+                  <span class="font-bold text-purple-800">DEMO:</span>
+                  <a class="hover:underline font-medium break-words" href="https://swifttweet.onrender.com"
+                    target="_blank">
+                    https://swifttweet.onrender.com
+                  </a>
+                </div>
+
+                <div class="flex justify-evenly mt-4">
+                  <a class="hover:underline" href="https://github.com/giorgi-2001/SwiftTweet" target="_blank">Front-end
+                    Code</a></a><span> | </span>
+                  <a class="hover:underline" href="https://github.com/giorgi-2001/SwiftTweetAPI"
+                    target="_blank">Back-end Code</a></a>
+                </div>
+              </div>
+            </article>
+          </div>
+          <div class="cursor-pointer rounded-md overflow-clip relative w-fit shadow-lg shadow-black/30 group">
+            <img class="w-80 group-hover:opacity-50" src="assets/synk.JPG" alt="SwiftTweet">
+            <article
+              class="bg-black/70 text-white absolute inset-0 flex flex-col justify-end p-4 opacity-0 group-hover:opacity-100 transition-all text-center">
+
+              <div class="relative top-10 group-hover:top-0 transition-all duration-300">
+
+                <h3 class="text-2xl">SynkSpace</h3>
+                <p>Social Media application</p>
+
+                <div class="mt-6 bg-white/70 p-2 rounded-md text-black">
+                  <span class="font-bold text-purple-800">DEMO:</span>
+                  <a class="hover:underline font-medium break-words" href="https://synkspace.onrender.com"
+                    target="_blank">
+                    https://synkspace.onrender.com
+                  </a>
+                </div>
+
+                <div class="flex justify-evenly mt-4">
+                  <a class="hover:underline" href="https://github.com/giorgi-2001/synkspace" target="_blank">Front-end
+                    Code</a></a><span> | </span>
+                  <a class="hover:underline" href="https://github.com/giorgi-2001/synkspace_api"
+                    target="_blank">Back-end Code</a></a>
+                </div>
+              </div>
+            </article>
+          </div>
+          <div class="cursor-pointer rounded-md overflow-clip relative w-fit shadow-lg shadow-black/30 group">
+            <img class="w-80 group-hover:opacity-50" src="assets/blog.JPG" alt="SwiftTweet">
+            <article
+              class="bg-black/70 text-white absolute inset-0 flex flex-col justify-end p-4 opacity-0 group-hover:opacity-100 transition-all text-center">
+
+              <div class="relative top-10 group-hover:top-0 transition-all duration-300">
+
+                <h3 class="text-2xl">Blog-O Net</h3>
+                <p>Blog application</p>
+
+                <div class="mt-6 bg-white/70 p-2 rounded-md text-black">
+                  <span class="font-bold text-purple-800">DEMO:</span>
+                  <a class="hover:underline font-medium break-words" href="https://blog-o-net.onrender.com"
+                    target="_blank">
+                    https://blog-o-net.onrender.com
+                  </a>
+                </div>
+
+                <div class="flex justify-evenly mt-4">
+                  <a class="hover:underline" href="https://github.com/giorgi-2001/Blog-ONet" target="_blank">Front-end
+                    Code</a></a><span> | </span>
+                  <a class="hover:underline" href="https://github.com/giorgi-2001/Blog-O_Net_API"
+                    target="_blank">Back-end Code</a></a>
+                </div>
+              </div>
+            </article>
+          </div>
+          <div class="cursor-pointer rounded-md overflow-clip relative w-fit shadow-lg shadow-black/30 group">
+            <img class="w-80 group-hover:opacity-50" src="assets/chat.JPG" alt="SwiftTweet">
+            <article
+              class="bg-black/70 text-white absolute inset-0 flex flex-col justify-end p-4 opacity-0 group-hover:opacity-100 transition-all text-center">
+
+              <div class="relative top-10 group-hover:top-0 transition-all duration-300">
+
+                <h3 class="text-2xl">Supachattery</h3>
+                <p>Real-time chat application</p>
+
+                <div class="mt-6 bg-white/70 p-2 rounded-md text-black">
+                  <span class="font-bold text-purple-800">DEMO:</span>
+                  <a class="hover:underline font-medium break-words" href="https://supachattery.onrender.com"
+                    target="_blank">
+                    https://supachattery.onrender.com
+                  </a>
+                </div>
+
+                <div class="flex justify-evenly mt-4">
+                  <a class="hover:underline" href="https://github.com/giorgi-2001/supaChatteryFrontEnd"
+                    target="_blank">Front-end
+                    Code</a></a><span> | </span>
+                  <a class="hover:underline" href="https://github.com/giorgi-2001/chatAppAPI" target="_blank">Back-end
+                    Code</a></a>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="wrapper">
+      <h2
+        class="w-fit mx-auto text-center text-3xl text-zinc-800 font-semibold after:block after:h-1 after:w-full after:bg-zinc-800 after:rounded-full after:mt-2 mb-12 mt-6">
+        Contact
+      </h2>
+      <ul class="flex gap-12 justify-center">
+        <li class="text-4xl text-zinc-800 hover:text-purple-900"><a href="mailto:giorgi.ananiashvili1@gmail.com"><i
+              class="fa-solid fa-envelope"></i></a>
+        </li>
+        <li class="text-4xl text-zinc-800 hover:text-purple-900"><a href="https://github.com/giorgi-2001"
+            target="_blank"><i class="fa-brands fa-github"></i></a></li>
+        <li class="text-4xl text-zinc-800 hover:text-purple-900"><a
+            href="https://www.linkedin.com/in/giorgi-ananiashvili-052b1b193/" target="_blank"><i
+              class="fa-brands fa-linkedin"></i></a>
+        </li>
+        <li class="text-4xl text-zinc-800 hover:text-purple-900"><a
+            href="https://www.instagram.com/g_ananiashvili?igsh=eXlwNnA3ZTN3YnNp" target="_blank"><i
+              class="fa-brands fa-instagram"></i></a>
+        </li>
+      </ul>
+    </section>
+
+    <footer class="text-center font-semibold py-4 bg-zinc-800 text-white mt-12">
+      <p>© <span id="year"></span>. All rights reserved.</p>
+    </footer>
+
+  </main>
+
+</body>
+
+</html>
